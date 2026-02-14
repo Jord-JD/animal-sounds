@@ -1,5 +1,5 @@
 {
-    "name": "divineomega/animal-sounds",
+    "name": "jord-jd/animal-sounds",
     "description": "Animal sounds",
     "type": "library",
     "license": "LGPL-3.0-only",
@@ -9,5 +9,13 @@
             "email": "jordan@hall05.co.uk"
         }
     ],
-    "require": {}
+    "require": {},
+    "replace": {
+        "divineomega/animal-sounds": "self.version"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
