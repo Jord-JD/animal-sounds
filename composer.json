@@ -1,21 +1,22 @@
 {
-    "name": "jord-jd/animal-sounds",
-    "description": "Animal sounds",
-    "type": "library",
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require": {},
-    "replace": {
-        "divineomega/animal-sounds": "self.version"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
+  "name": "jord-jd/animal-sounds",
+  "description": "Animal sounds",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
     }
+  ],
+  "require": {},
+  "replace": {
+    "divineomega/animal-sounds": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  },
+  "require-dev": {}
 }
