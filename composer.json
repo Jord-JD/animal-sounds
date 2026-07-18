@@ -10,6 +10,11 @@
     }
   ],
   "require": {},
+  "autoload": {
+    "psr-4": {
+      "JordJD\\AnimalSounds\\": "src/"
+    }
+  },
   "replace": {
     "divineomega/animal-sounds": "self.version"
   },
